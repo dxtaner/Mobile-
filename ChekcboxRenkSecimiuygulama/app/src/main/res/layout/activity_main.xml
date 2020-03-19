@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/renkseciniz"
+        android:layout_width="180dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="8dp"
+        android:text="&quot;Renk Seçiniz&quot; textView'i"
+        app:layout_constraintBottom_toTopOf="@+id/radiogrup"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/radiogrup"
+        android:layout_width="165dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginBottom="8dp"
+        android:text="Radio Grup'un"
+        app:layout_constraintBottom_toTopOf="@+id/ayarla"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/ayarla"
+        android:layout_width="165dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="8dp"
+        android:text='"Ayarla" butonu'
+        app:layout_constraintBottom_toTopOf="@+id/mesajaktar"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/mesajaktar"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="16dp"
+        android:text='"Mesaj Aktar" butonu'
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="4dp"
+        android:text="Rengini Değiştirmek istediğiniz bileşeni seçiniz..."
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/renkseciniz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="237dp"
+        android:text="Renk Seçiniz.."
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mesajaktar" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="34dp"
+        android:text="Mesaj Aktar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="30dp"
+        android:text="Ayarla"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="168dp"
+        android:layout_height="192dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="223dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <RadioButton
+            android:id="@+id/kirmizi"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:text="Kırmızı" />
+
+        <RadioButton
+            android:id="@+id/siyah"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:text="Siyah" />
+
+        <RadioButton
+            android:id="@+id/yesil"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:text="Yeşil" />
+
+        <RadioButton
+            android:id="@+id/gri"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:text="Gri" />
+
+        <RadioButton
+            android:id="@+id/mavi"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:text="Mavi" />
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>
