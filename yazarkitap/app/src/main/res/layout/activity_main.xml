@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:hint="KİTAP ADI"
+        android:inputType="textPersonName"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="YAZAR ADI"
+        android:inputType="textPersonName"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <Button
+        android:id="@+id/kaydet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:onClick="kaydt"
+        android:text="KAYIT EKLE"
+        android:textSize="15sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/bul"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/sil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:onClick="silmee"
+        android:text="KAYIT SİL"
+        android:textSize="15sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/bul"
+        app:layout_constraintStart_toEndOf="@+id/bul" />
+
+    <Button
+        android:id="@+id/guncelle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="253dp"
+        android:onClick="gunclle"
+        android:text="KAYIT GÜNCELLE"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="27dp"
+        android:onClick="bull"
+        android:text="KAYIT BUL"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/guncelle"
+        app:layout_constraintStart_toEndOf="@+id/kaydet" />
+
+    <Button
+        android:id="@+id/listele"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="35dp"
+        android:onClick="listle"
+        android:text="KAYIT LİSTELE"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/sil"
+        app:layout_constraintStart_toEndOf="@+id/guncelle"
+        app:layout_constraintTop_toBottomOf="@+id/sil" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="409dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="34dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guncelle" />
+</androidx.constraintlayout.widget.ConstraintLayout>
