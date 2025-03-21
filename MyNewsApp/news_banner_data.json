@@ -1,0 +1,32 @@
+[
+  {
+    "u_id": 0,
+    "imageUrl": "https://www.example.com/images/tech-banner.jpg",
+    "title": "The Future of Artificial Intelligence",
+    "description": "AI is transforming industries across the globe, from healthcare to finance. Explore the latest breakthroughs."
+  },
+  {
+    "u_id": 1,
+    "imageUrl": "https://www.example.com/images/crypto-banner.jpg",
+    "title": "Bitcoin's Rollercoaster Journey",
+    "description": "Bitcoin's price fluctuations have made headlines. What does the future hold for this cryptocurrency?"
+  },
+  {
+    "u_id": 2,
+    "imageUrl": "https://www.example.com/images/space-banner.jpg",
+    "title": "Mars Exploration: The Next Frontier",
+    "description": "NASA's missions to Mars are yielding new discoveries. Could we soon find signs of past life on the Red Planet?"
+  },
+  {
+    "u_id": 3,
+    "imageUrl": "https://www.example.com/images/electric-car-banner.jpg",
+    "title": "Electric Cars and the Future of Transportation",
+    "description": "The automotive industry is shifting to electric vehicles. Will they dominate the roads in the next decade?"
+  },
+  {
+    "u_id": 4,
+    "imageUrl": "https://www.example.com/images/covid-banner.jpg",
+    "title": "Global Vaccination Efforts Against COVID-19",
+    "description": "As countries work to vaccinate their populations, how effective are current vaccines in the fight against COVID-19?"
+  }
+]
