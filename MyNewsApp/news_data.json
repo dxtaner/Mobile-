@@ -1,0 +1,37 @@
+[
+  {
+    "u_id": 1,
+    "author": "Jane Smith",
+    "title": "Apple Unveils New iPhone Features",
+    "description": "Apple has introduced several new features for its upcoming iPhone, including a better camera, faster processor, and enhanced security options.",
+    "imageUrl": "https://www.macworld.com/wp-content/uploads/2025/03/iPhone-folding-image-9.jpg?resize=1536%2C1024&quality=50&strip=all"
+  },
+  {
+    "u_id": 2,
+    "author": "Tom Johnson",
+    "title": "Google Announces Major AI Breakthrough",
+    "description": "Google has revealed a groundbreaking AI model that can now generate realistic images from text prompts, pushing the boundaries of machine learning.",
+    "imageUrl": "https://image.cnbcfm.com/api/v1/image/108114922-1741797879290-gettyimages-2204630951-img_6899_google01_03112025.jpeg?v=1741797998&w=1480&h=833&ffmt=webp&vtcrop=y"
+  },
+  {
+    "u_id": 3,
+    "author": "Samantha Lee",
+    "title": "Bitcoin Hits New All-Time High",
+    "description": "Bitcoin surged to a new all-time high, surpassing $70,000 per coin, as institutional adoption and mainstream interest continue to rise.",
+    "imageUrl": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=717/https://s3.cointelegraph.com/uploads/2025-01/01948287-f672-73ae-bb3d-15777794fce6"
+  },
+  {
+    "u_id": 4,
+    "author": "Michael Brown",
+    "title": "NASA's Mars Rover Discovers Water Evidence",
+    "description": "NASA's Perseverance rover has found new evidence of ancient water on Mars, boosting hopes of discovering signs of past life on the Red Planet.",
+    "imageUrl": "https://www.nasa.gov/wp-content/uploads/2024/03/1-pia26246-curiosity-arrives-at-upper-gediz-vallis.png?resize=2000,721"
+  },
+  {
+    "u_id": 5,
+    "author": "Lisa Green",
+    "title": "Tesla's New Electric Truck Revolutionizes Transportation",
+    "description": "Tesla has launched its highly anticipated electric truck, which promises to revolutionize the transportation industry with zero emissions and impressive range.",
+    "imageUrl": "https://automaxgroup.me/wp-content/uploads/2025/01/1.webp"
+  }
+]
