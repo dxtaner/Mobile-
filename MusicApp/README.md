@@ -63,6 +63,8 @@ Dependencies
 Screenshots
 -----------
 
+![News App Demo](https://github.com/dxtaner/Mobile-/blob/master/MusicApp/musicapp.gif)
+
 
 
 Contributions
