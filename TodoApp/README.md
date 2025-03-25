@@ -2,6 +2,11 @@
 To-Do App
 =========
 
+App Demo
+--------
+
+![News App Demo](https://github.com/dxtaner/Mobile-/blob/master/TodoApp/todoapp.gif)
+
 Features
 --------
 
