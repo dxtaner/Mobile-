@@ -3,6 +3,11 @@ My Store App
 
 A simple React Native app that showcases products with a search functionality. It allows users to search for products by name and view the filtered list in a responsive layout.
 
+App Demo
+--------
+
+![News App Demo](https://github.com/dxtaner/Mobile-/blob/master/MyStoreApp/mystore.gif)
+
 Features
 --------
 
