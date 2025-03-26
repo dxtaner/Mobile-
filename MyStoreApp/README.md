@@ -62,10 +62,6 @@ A functional component that allows users to search products by name. It accepts 
 *   **searchText:** The current search text.
 *   **setSearchText:** The function to update the search text.
 
-Screenshots
------------
-
-![Product List Screenshot](https://example.com/screenshots/product_list.png)
 
 License
 -------
