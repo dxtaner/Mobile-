@@ -1,97 +1,68 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+My Store App
+============
 
-# Getting Started
+A simple React Native app that showcases products with a search functionality. It allows users to search for products by name and view the filtered list in a responsive layout.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+Features
+--------
 
-## Step 1: Start Metro
+*   **Product Listing:** Displays a list of products with their images, names, and prices.
+*   **Search Functionality:** A search bar to filter products based on the name.
+*   **Responsive Layout:** Displays products in a grid layout with two columns.
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+Technologies Used
+-----------------
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+*   **React Native:** Framework for building the mobile app.
+*   **React:** For managing UI state.
+*   **FlatList:** For efficient rendering of the product list.
+*   **SafeAreaView:** To ensure the content is rendered within the safe area boundaries of the screen.
 
-```sh
-# Using npm
-npm start
+Installation
+------------
 
-# OR using Yarn
-yarn start
-```
+Follow these steps to get the app running locally.
 
-## Step 2: Build and run your app
+### 1\. Clone the repository
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+    git clone https://github.com/dxtaner/Mobile-/tree/master/MyStoreApp
 
-### Android
+### 2\. Navigate to the project folder
 
-```sh
-# Using npm
-npm run android
+    cd MyStoreApp
 
-# OR using Yarn
-yarn android
-```
+### 3\. Install dependencies
 
-### iOS
+    npm install
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+### 4\. Run the app
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+To run the app on your emulator or device, use the following command:
 
-```sh
-bundle install
-```
+    npx react-native run-android  # For Android
 
-Then, and every time you update your native dependencies, run:
+    npx react-native run-ios      # For iOS (macOS only)
 
-```sh
-bundle exec pod install
-```
+Components
+----------
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+### 1\. ProductCard
 
-```sh
-# Using npm
-npm run ios
+This component displays individual product information such as the name, price, and image.
 
-# OR using Yarn
-yarn ios
-```
+### 2\. SearchBar
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+A functional component that allows users to search products by name. It accepts two props:
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+*   **searchText:** The current search text.
+*   **setSearchText:** The function to update the search text.
 
-## Step 3: Modify your app
+Screenshots
+-----------
 
-Now that you have successfully run the app, let's make changes!
+![Product List Screenshot](https://example.com/screenshots/product_list.png)
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+License
+-------
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
