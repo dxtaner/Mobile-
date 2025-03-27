@@ -3,6 +3,11 @@ React Native Navigation Example
 
 This project demonstrates a basic React Native application using React Navigation v6 with `createNativeStackNavigator`. It features three simple screens: Welcome, Member Sign, and Member Result.
 
+App Demo
+--------
+
+![News App Demo](https://github.com/dxtaner/Mobile-/blob/master/MyRegistrationApp/RegisterApp.gif)
+
 Project Structure
 -----------------
 
