@@ -3,6 +3,11 @@ React Native Shopping App with Redux
 
 This project demonstrates a React Native application with navigation and Redux state management. The app features authentication flow and keyboard-aware views.
 
+Screenshots
+-----------
+
+![News App Demo](https://github.com/dxtaner/Mobile-/blob/master/MyShoppingApp/MyShoppingApp.gif)
+
 Project Structure
 -----------------
 
