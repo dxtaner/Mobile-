@@ -3,6 +3,14 @@ MealDB Recipe App
 
 This is a React Native application that allows users to browse food categories, view meals in each category, and see detailed recipes.
 
+App Demo
+--------
+
+![News App Demo](https://github.com/dxtaner/Mobile-/blob/master/RecipeApp/ReciepApp.gif)
+![News App Demo](https://github.com/dxtaner/Mobile-/blob/master/RecipeApp/ReciepApp2.gif)
+
+
+
 Features
 --------
 
