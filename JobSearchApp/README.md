@@ -1,97 +1,89 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+Jobs App with React Native
+==========================
 
-# Getting Started
+A mobile application that lists job opportunities and allows users to mark their favorites.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+Features
+--------
 
-## Step 1: Start Metro
+*   Browse job listings
+*   View detailed job information
+*   Mark jobs as favorites
+*   View favorite jobs in a separate tab
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+Technologies Used
+-----------------
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+*   React Native
+*   React Navigation (Stack and Bottom Tabs)
+*   Redux for state management
+*   TheMuse API for job data
 
-```sh
-# Using npm
-npm start
+Installation
+------------
 
-# OR using Yarn
-yarn start
-```
+1.  Clone the repository
+2.  Install dependencies:
+    
+        npm install
+    
+3.  Start the application:
+    
+        npm start
+    
 
-## Step 2: Build and run your app
+Project Structure
+-----------------
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+*   `src/pages/`: Contains the main screens
+    *   `JobsPage.js`: Displays job listings
+    *   `Detail.js`: Shows detailed job information
+    *   `Favorite.js`: Lists favorited jobs
+*   `src/context/`: Redux setup
+    *   `reducers.js`: Combines all reducers
+    *   `store.js`: Initial Redux store state
 
-### Android
+Navigation
+----------
 
-```sh
-# Using npm
-npm run android
+The app uses a combination of stack and tab navigation:
 
-# OR using Yarn
-yarn android
-```
+*   Main tab navigator with two tabs:
+    *   Jobs (💼 icon)
+    *   Favorites (❤️ icon)
+*   Stack navigator for job details
 
-### iOS
+Styling
+-------
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+The app uses a consistent dark theme with:
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+*   Dark blue navigation bars
+*   Light colored text
+*   Emoji icons for tabs
 
-```sh
-bundle install
-```
+API Integration
+---------------
 
-Then, and every time you update your native dependencies, run:
+The app connects to TheMuse API to fetch job data:
 
-```sh
-bundle exec pod install
-```
+    API_JOBS_URL=https://www.themuse.com/api/public/jobs
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+State Management
+----------------
 
-```sh
-# Using npm
-npm run ios
+Redux is used to manage:
 
-# OR using Yarn
-yarn ios
-```
+*   Job listings
+*   Favorite jobs
+*   Application state
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+Screenshots
+-----------
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+(You can add screenshots of your app here if available)
 
-## Step 3: Modify your app
+License
+-------
 
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+MIT License
