@@ -3,6 +3,12 @@ Jobs App with React Native
 
 A mobile application that lists job opportunities and allows users to mark their favorites.
 
+App Demo
+--------
+
+![News App Demo](https://github.com/dxtaner/Mobile-/blob/master/JobSearchApp/Jobs.gif)
+![News App Demo](https://github.com/dxtaner/Mobile-/blob/master/JobSearchApp/Jobs2.gif)
+
 Features
 --------
 
