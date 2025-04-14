@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "504186671619",
+    "project_id": "nothingapp-c5cc0",
+    "storage_bucket": "nothingapp-c5cc0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504186671619:android:02ddee55f11db33c633436",
+        "android_client_info": {
+          "package_name": "com.nothingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoQvKya5LjznP1anIeeNwr5-mFMfGqV5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
