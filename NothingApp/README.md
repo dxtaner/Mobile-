@@ -4,6 +4,11 @@ React Native Firebase Authentication App
 
 This project is a simple login/sign-up and messaging app built with React Native and Firebase Authentication.
 
+App Demo
+--------
+
+![News App Demo](https://github.com/dxtaner/Mobile-/blob/master/NothingApp/NothngApp.gif)
+
 Features
 --------
 
