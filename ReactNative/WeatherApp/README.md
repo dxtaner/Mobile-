@@ -4,6 +4,11 @@
 
 This is a sleek and modern React Native mobile application that displays real-time weather information based on your current location or a city name. It uses the OpenWeatherMap API and device location services.
 
+📷 Screenshots
+--------------
+![News App Demo](https://github.com/dxtaner/Mobile-/blob/master/WeatherApp/Weather.gif)
+
+
 🚀 Features
 -----------
 
@@ -52,8 +57,7 @@ Add this to `android/app/src/main/AndroidManifest.xml`:
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
-📷 Screenshots
---------------
+
 
 
 🛠 Commands
