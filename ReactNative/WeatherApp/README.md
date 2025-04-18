@@ -1,39 +1,33 @@
-
-🌤️ React Native Weather App
-============================
+# 🌤️ React Native Weather App
 
 This is a sleek and modern React Native mobile application that displays real-time weather information based on your current location or a city name. It uses the OpenWeatherMap API and device location services.
 
-📷 Screenshots
---------------
-![News App Demo](https://github.com/dxtaner/Mobile-/blob/master/WeatherApp/Weather.gif)
+## 📷 Screenshots
 
+![News App Demo](https://github.com/dxtaner/Mobile-/blob/master/ReactNative/WeatherApp/Weather.gif)
 
-🚀 Features
------------
+## 🚀 Features
 
-*   🌍 Get weather info based on current location
-*   🔍 Search by city name
-*   📅 Turkish localized and formatted date (using date-fns with `tr` locale)
-*   📡 Live weather data from OpenWeatherMap API
-*   🔄 Pull to refresh functionality
-*   🎨 Glassmorphism-style user interface
-*   📱 Platform-specific location permission handling (Android/iOS)
+- 🌍 Get weather info based on current location
+- 🔍 Search by city name
+- 📅 Turkish localized and formatted date (using date-fns with `tr` locale)
+- 📡 Live weather data from OpenWeatherMap API
+- 🔄 Pull to refresh functionality
+- 🎨 Glassmorphism-style user interface
+- 📱 Platform-specific location permission handling (Android/iOS)
 
-🧪 Tech Stack
--------------
+## 🧪 Tech Stack
 
-*   React Native
-*   OpenWeatherMap API
-*   `react-native-geolocation-service`
-*   `date-fns` (for Turkish date formatting)
-*   `react-native-config` (API key management)
-*   Custom `useFetch` hook
-*   Reusable `WeatherInfoCard` component
-*   Responsive and adaptive styling
+- React Native
+- OpenWeatherMap API
+- `react-native-geolocation-service`
+- `date-fns` (for Turkish date formatting)
+- `react-native-config` (API key management)
+- Custom `useFetch` hook
+- Reusable `WeatherInfoCard` component
+- Responsive and adaptive styling
 
-🔧 Setup
---------
+## 🔧 Setup
 
 ### 1\. Clone the repository:
 
@@ -57,20 +51,15 @@ Add this to `android/app/src/main/AndroidManifest.xml`:
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
-
-
-
-🛠 Commands
------------
+## 🛠 Commands
 
     # Run on Android
     npx react-native run-android
-    
+
     # Run on iOS (requires macOS)
     npx react-native run-ios
 
-📁 Project Structure
---------------------
+## 📁 Project Structure
 
     .
     ├── components/
@@ -81,19 +70,16 @@ Add this to `android/app/src/main/AndroidManifest.xml`:
     │   └── skyback.jpg
     ├── App.js
     └── ...
-    
 
-📌 Notes
---------
+## 📌 Notes
 
-*   If location permission is not granted, the app logs an error.
-*   City-based data is used when searched, location-based data returns after refresh.
+- If location permission is not granted, the app logs an error.
+- City-based data is used when searched, location-based data returns after refresh.
 
-📄 License
-----------
+## 📄 License
 
 MIT License
 
-* * *
+---
 
 💡 Developed by [Taner Özer](mailto:tanerozer16@gmail.com)

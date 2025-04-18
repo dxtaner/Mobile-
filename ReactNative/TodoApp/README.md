@@ -1,22 +1,17 @@
+# To-Do App
 
-To-Do App
-=========
+## App Demo
 
-App Demo
---------
+![News App Demo](https://github.com/dxtaner/Mobile-/blob/master/ReactNative/TodoApp/todoapp.gif)
 
-![News App Demo](https://github.com/dxtaner/Mobile-/blob/master/TodoApp/todoapp.gif)
+## Features
 
-Features
---------
+- Add new tasks
+- Mark tasks as completed
+- Delete tasks
+- Display active task count
 
-*   Add new tasks
-*   Mark tasks as completed
-*   Delete tasks
-*   Display active task count
-
-Installation
-------------
+## Installation
 
 Clone the repository:
 
@@ -32,29 +27,25 @@ Run the app:
     npx react-native run-android   # For Android
     npx react-native run-ios       # For iOS
 
-File Structure
---------------
+## File Structure
 
-*   **components/**
+- **components/**
 
-*   **TodoItem.js** – Renders individual tasks
+- **TodoItem.js** – Renders individual tasks
 
-*   **App.js** – Main component that manages state and UI
+- **App.js** – Main component that manages state and UI
 
-Usage
------
+## Usage
 
-*   **Add Task:** Type in the input field and press enter
-*   **Complete Task:** Tap a task to mark it as completed
-*   **Delete Task:** Long press a task to remove it
+- **Add Task:** Type in the input field and press enter
+- **Complete Task:** Tap a task to mark it as completed
+- **Delete Task:** Long press a task to remove it
 
-Dependencies
-------------
+## Dependencies
 
-*   React Native
-*   React
+- React Native
+- React
 
-License
--------
+## License
 
 This project is licensed under the MIT License.

@@ -1,37 +1,30 @@
-MealDB Recipe App
-=================
+# MealDB Recipe App
 
 This is a React Native application that allows users to browse food categories, view meals in each category, and see detailed recipes.
 
-App Demo
---------
+## App Demo
 
-![News App Demo](https://github.com/dxtaner/Mobile-/blob/master/RecipeApp/ReciepApp.gif)
-![News App Demo](https://github.com/dxtaner/Mobile-/blob/master/RecipeApp/ReciepApp2.gif)
+![News App Demo](https://github.com/dxtaner/Mobile-/blob/master/ReactNative/RecipeApp/ReciepApp.gif)
+![News App Demo](https://github.com/dxtaner/Mobile-/blob/master/ReactNative/RecipeApp/ReciepApp2.gif)
 
+## Features
 
+- Browse food categories
+- View meals by category
+- See detailed recipe information
+- Smooth navigation between screens
 
-Features
---------
-
-*   Browse food categories
-*   View meals by category
-*   See detailed recipe information
-*   Smooth navigation between screens
-
-API Endpoints
--------------
+## API Endpoints
 
 The app uses the following endpoints from [TheMealDB](https://www.themealdb.com):
 
-**API\_CATEGORIES**: https://www.themealdb.com/api/json/v1/1/categories.php - Get all meal categories
+**API_CATEGORIES**: https://www.themealdb.com/api/json/v1/1/categories.php - Get all meal categories
 
-**API\_MEALS**: https://www.themealdb.com/api/json/v1/1/filter.php?c= - Get meals by category (append category name)
+**API_MEALS**: https://www.themealdb.com/api/json/v1/1/filter.php?c= - Get meals by category (append category name)
 
-**API\_DETAIL**: https://www.themealdb.com/api/json/v1/1/lookup.php?i= - Get meal details by ID (append meal ID)
+**API_DETAIL**: https://www.themealdb.com/api/json/v1/1/lookup.php?i= - Get meal details by ID (append meal ID)
 
-Navigation Structure
---------------------
+## Navigation Structure
 
 The app uses React Navigation with the following screens:
 
@@ -53,39 +46,34 @@ Displays detailed recipe information
 
 **Title**: "📖 Recipe Details"
 
-Styling
--------
+## Styling
 
 The navigation header has the following styling:
 
-*   Background color: `#f8f9fa` (light gray)
-*   Title color: `#FF6347` (tomato)
-*   Title font size: 22
-*   Font weight: bold
-*   Title alignment: center
-*   Transition animation: slide from right
+- Background color: `#f8f9fa` (light gray)
+- Title color: `#FF6347` (tomato)
+- Title font size: 22
+- Font weight: bold
+- Title alignment: center
+- Transition animation: slide from right
 
-Installation
-------------
+## Installation
 
 1.  Clone the repository
 2.  Install dependencies: `npm install`
 3.  Run the app: `npm start` (or appropriate command for your platform)
 
-Dependencies
-------------
+## Dependencies
 
-*   React
-*   React Native
-*   @react-navigation/native
-*   @react-navigation/native-stack
+- React
+- React Native
+- @react-navigation/native
+- @react-navigation/native-stack
 
-Screenshots
------------
+## Screenshots
 
 (You can add screenshots of your app here if available)
 
-License
--------
+## License
 
 (Mention your license here if applicable)
