@@ -9,6 +9,7 @@ App Demo
 ![News App Demo](https://github.com/dxtaner/Mobile-/tree/master/ReactNative/JobSearchApp/Jobs.gif)
 ![News App Demo](https://github.com/dxtaner/Mobile-/tree/master/ReactNative/JobSearchApp/Jobs2.gif)
 
+
 ## Features
 
 - Browse job listings
