@@ -5,15 +5,9 @@ A mobile application that lists job opportunities and allows users to mark their
 App Demo
 --------
 
-![News App Demo](https://github.com/dxtaner/Mobile-/tree/master/ReactNative/JobSearchApp/Jobs.gif)
-![News App Demo](https://github.com/dxtaner/Mobile-/tree/master/ReactNative/JobSearchApp/Jobs2.gif)
 
-![News App Demo](https://github.com/dxtaner/Mobile-/blob/master/ReactNative/JobSearchApp/Jobs.gif)
-![News App Demo](https://github.com/dxtaner/Mobile-/blob/master/ReactNative/JobSearchApp/Jobs.gif/Jobs2.gif)
-=======
 ![News App Demo](https://github.com/dxtaner/Mobile-/tree/master/ReactNative/JobSearchApp/Jobs.gif)
 ![News App Demo](https://github.com/dxtaner/Mobile-/tree/master/ReactNative/JobSearchApp/Jobs2.gif)
->>>>>>> 2153649 (Update README.md)
 
 ## Features
 
