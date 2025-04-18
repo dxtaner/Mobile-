@@ -1,29 +1,24 @@
-React Native News App
-=====================
+# React Native News App
 
 This is a simple and responsive news app built using React Native. The app displays the latest news articles along with a banner carousel showcasing some highlighted news. The news data is fetched from local JSON files.
 
-App Demo
---------
+## App Demo
 
-![News App Demo](https://github.com/dxtaner/Mobile-/blob/master/MyNewsApp/newsapp.gif?raw=true)
+![News App Demo](https://github.com/dxtaner/Mobile-/blob/master/ReactNative/MyNewsApp/newsapp.gif)
 
-Features
---------
+## Features
 
-*   **News List**: Displays a list of news articles using a `FlatList` component.
-*   **News Banners**: A horizontal scrollable list of banners with images, titles, and descriptions.
-*   **Responsive Design**: The app is designed to be responsive and looks great on both Android and iOS devices.
-*   **Smooth Scrolling**: The app uses `FlatList` for optimized performance with large data sets.
+- **News List**: Displays a list of news articles using a `FlatList` component.
+- **News Banners**: A horizontal scrollable list of banners with images, titles, and descriptions.
+- **Responsive Design**: The app is designed to be responsive and looks great on both Android and iOS devices.
+- **Smooth Scrolling**: The app uses `FlatList` for optimized performance with large data sets.
 
-Components
-----------
+## Components
 
-*   **NewsCard**: A custom component that represents an individual news article.
-*   **News Banner**: A horizontally scrollable list of banners featuring highlighted news.
+- **NewsCard**: A custom component that represents an individual news article.
+- **News Banner**: A horizontally scrollable list of banners featuring highlighted news.
 
-Installation
-------------
+## Installation
 
 To run this app locally, follow these steps:
 
@@ -48,13 +43,12 @@ Start the app on your simulator or device by running:
 
 The app uses two local JSON files for news data:
 
-*   `news_data.json`: Contains the list of news articles.
-*   `news_banner_data.json`: Contains the data for the banner images and titles.
+- `news_data.json`: Contains the list of news articles.
+- `news_banner_data.json`: Contains the data for the banner images and titles.
 
 You can modify these files to update the news content and banners.
 
-Directory Structure
--------------------
+## Directory Structure
 
     .
     ├── App.js                     # Main app component
@@ -63,22 +57,17 @@ Directory Structure
     ├── news_data.json              # News articles data
     ├── news_banner_data.json       # Banner data
     └── package.json                # Project dependencies and scripts
-    
 
-Dependencies
-------------
+## Dependencies
 
-*   `react-native`: The framework used for building the app.
-*   `react`: The core library used for UI rendering.
-*   `react-native-gesture-handler`: Handles gesture interactions.
+- `react-native`: The framework used for building the app.
+- `react`: The core library used for UI rendering.
+- `react-native-gesture-handler`: Handles gesture interactions.
 
-Contributing
-------------
+## Contributing
 
 Feel free to fork the repository and contribute by making a pull request. If you have any suggestions or improvements, please open an issue.
 
-License
--------
+## License
 
 This project is open-source and available under the MIT License.
-
