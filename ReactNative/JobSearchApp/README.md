@@ -2,13 +2,10 @@
 
 A mobile application that lists job opportunities and allows users to mark their favorites.
 
-App Demo
---------
+## App Demo
 
-
-![News App Demo](https://github.com/dxtaner/Mobile-/tree/master/ReactNative/JobSearchApp/Jobs.gif)
-![News App Demo](https://github.com/dxtaner/Mobile-/tree/master/ReactNative/JobSearchApp/Jobs2.gif)
-
+![Jobs App Demo](https://github.com/dxtaner/Mobile-/raw/master/ReactNative/JobSearchApp/Jobs.gif)
+![Jobs App Demo](https://github.com/dxtaner/Mobile-/raw/master/ReactNative/JobSearchApp/Jobs2.gif)
 
 ## Features
 
