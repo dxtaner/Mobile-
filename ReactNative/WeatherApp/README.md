@@ -4,7 +4,7 @@ This is a sleek and modern React Native mobile application that displays real-ti
 
 ## 📷 Screenshots
 
-![News App Demo](https://github.com/dxtaner/Mobile-/blob/master/ReactNative/WeatherApp/Weather.gif)
+![Weather App Demo](https://github.com/dxtaner/Mobile-/raw/master/ReactNative/WeatherApp/Weather.gif)
 
 ## 🚀 Features
 

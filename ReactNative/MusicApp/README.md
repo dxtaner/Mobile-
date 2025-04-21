@@ -53,7 +53,7 @@ Follow these steps to run the app on your local machine.
 
 ## Screenshots
 
-![News App Demo](https://github.com/dxtaner/Mobile-/blob/master/ReactNative/MusicApp/musicapp.gif)
+![Music App Demo](https://github.com/dxtaner/Mobile-/raw/master/ReactNative/MusicApp/musicapp.gif)
 
 ## Contributions
 

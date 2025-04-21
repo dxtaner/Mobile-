@@ -4,7 +4,7 @@ This project is a simple login/sign-up and messaging app built with React Native
 
 ## App Demo
 
-![News App Demo](https://github.com/dxtaner/Mobile-/blob/master/ReactNative/NothingApp/NothngApp.gif)
+![Nothing App Demo](https://github.com/dxtaner/Mobile-/raw/master/ReactNative/NothingApp/NothngApp.gif)
 
 ## Features
 

@@ -2,7 +2,7 @@
 
 ## App Demo
 
-![News App Demo](https://github.com/dxtaner/Mobile-/blob/master/ReactNative/TodoApp/todoapp.gif)
+![Todo App Demo](https://github.com/dxtaner/Mobile-/raw/master/ReactNative/TodoApp/todoapp.gif)
 
 ## Features
 

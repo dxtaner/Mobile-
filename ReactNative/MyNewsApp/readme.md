@@ -4,7 +4,7 @@ This is a simple and responsive news app built using React Native. The app displ
 
 ## App Demo
 
-![News App Demo](https://github.com/dxtaner/Mobile-/blob/master/ReactNative/MyNewsApp/newsapp.gif)
+![News App Demo](https://github.com/dxtaner/Mobile-/raw/master/ReactNative/MyNewsApp/newsapp.gif)
 
 ## Features
 

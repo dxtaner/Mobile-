@@ -4,7 +4,7 @@ This project demonstrates a basic React Native application using React Navigatio
 
 ## App Demo
 
-![News App Demo](https://github.com/dxtaner/Mobile-/blob/master/ReactNative/MyRegistrationApp/RegisterApp.gif)
+![Registration App Demo](https://github.com/dxtaner/Mobile-/raw/master/ReactNative/MyRegistrationApp/RegisterApp.gif)
 
 ## Project Structure
 

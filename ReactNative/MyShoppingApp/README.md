@@ -4,7 +4,7 @@ This project demonstrates a React Native application with navigation and Redux s
 
 ## Screenshots
 
-![News App Demo](https://github.com/dxtaner/Mobile-/blob/master/ReactNative/MyShoppingApp/MyShoppingApp.gif)
+![Shopping App Demo](https://github.com/dxtaner/Mobile-/raw/master/ReactNative/MyShoppingApp/MyShoppingApp.gif)
 
 ## Project Structure
 

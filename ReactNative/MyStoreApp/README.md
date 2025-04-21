@@ -4,7 +4,7 @@ A simple React Native app that showcases products with a search functionality. I
 
 ## App Demo
 
-![News App Demo](https://github.com/dxtaner/Mobile-/blob/master/ReactNative/MyStoreApp/mystore.gif)
+![Store App Demo](https://github.com/dxtaner/Mobile-/raw/master/ReactNative/MyStoreApp/mystore.gif)
 
 ## Features
 

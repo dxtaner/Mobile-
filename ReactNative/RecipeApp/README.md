@@ -4,8 +4,8 @@ This is a React Native application that allows users to browse food categories, 
 
 ## App Demo
 
-![News App Demo](https://github.com/dxtaner/Mobile-/blob/master/ReactNative/RecipeApp/ReciepApp.gif)
-![News App Demo](https://github.com/dxtaner/Mobile-/blob/master/ReactNative/RecipeApp/ReciepApp2.gif)
+![Recipe App Demo](https://github.com/dxtaner/Mobile-/raw/master/ReactNative/RecipeApp/RecipeApp.gif)
+![Recipe App Demo](https://github.com/dxtaner/Mobile-/raw/master/ReactNative/RecipeApp/RecipeApp2.gif)
 
 ## Features
 
