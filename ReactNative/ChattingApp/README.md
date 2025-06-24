@@ -67,7 +67,8 @@ This block listens for auth state changes and routes the user accordingly.
 
 📸 Screenshots 
 --------------------------
-![ChatRooms Preview](Mobile-/ReactNative/ChattingApp/ChatRooms.gif)
+
+![ChatRooms Preview](https://github.com/dxtaner/Mobile-/raw/master/ReactNative/ChattingApp/ChatRooms.gif)
 
 
 🧪 Setup
