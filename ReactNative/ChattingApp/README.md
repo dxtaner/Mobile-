@@ -65,8 +65,9 @@ This project is a simple chat application built with React Native, Firebase Auth
 
 This block listens for auth state changes and routes the user accordingly.
 
-📸 Screenshots (suggested)
+📸 Screenshots 
 --------------------------
+![ChatRooms Preview](Mobile-/ReactNative/ChattingApp/ChatRooms.gif)
 
 
 🧪 Setup
