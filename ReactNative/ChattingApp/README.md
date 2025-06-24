@@ -1,97 +1,106 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+🔐 React Native Firebase Chat App
+=================================
 
-# Getting Started
+This project is a simple chat application built with React Native, Firebase Authentication, and React Navigation. Users can sign in, register, and join chat rooms to communicate with others.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+🚀 Features
+-----------
 
-## Step 1: Start Metro
+*   User sign-in and registration with Firebase Authentication
+*   List of chat rooms
+*   Chat room detail screen
+*   Info messages using `react-native-flash-message`
+*   Authentication state listener
+*   Global state management with React Context API
+*   Logout button on the chat screen (in the header)
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+🧩 Tech Stack
+-------------
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+*   React Native
+*   React Navigation (`@react-navigation/native`, `@react-navigation/native-stack`)
+*   Firebase Authentication (`@react-native-firebase/auth`)
+*   Flash Messages (`react-native-flash-message`)
+*   Material Community Icons (`react-native-vector-icons/MaterialCommunityIcons`)
+*   React Context API
 
-```sh
-# Using npm
-npm start
+📁 Project Structure
+--------------------
 
-# OR using Yarn
-yarn start
-```
+📦 your-project/
+ ┣ 📂 pages/
+ ┃ ┣ 📂 auth/
+ ┃ ┃ ┣ 📜 Login.js
+ ┃ ┃ ┗ 📜 Sign.js
+ ┃ ┣ 📜 ChatRooms.js
+ ┃ ┗ 📂 ChatRoomDetail/
+ ┃   ┗ 📜 ChatRoomDetail.js
+ ┣ 📂 context/
+ ┃ ┗ 📜 ChatRoomContext.js
+ ┣ 📜 Router.js <-- (This file)
+ ┗ 📜 App.js
+  
 
-## Step 2: Build and run your app
+📱 Navigation Flow
+------------------
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+*   **AuthStack** (for unauthenticated users)
+    *   `LoginPage`: Login screen
+    *   `SignPage`: Registration screen
+*   **MainStack** (for authenticated users)
+    *   `Rooms`: Chat rooms list
+    *   `ChatRoomDetail`: Selected room's detail screen
 
-### Android
+🔑 Authentication State
+-----------------------
 
-```sh
-# Using npm
-npm run android
+    
+    useEffect(() => {
+      const unsubscribe = auth().onAuthStateChanged(user => {
+        setUserSession(!!user);
+      });
+      return unsubscribe;
+    }, []);
+      
 
-# OR using Yarn
-yarn android
-```
+This block listens for auth state changes and routes the user accordingly.
 
-### iOS
+📸 Screenshots (suggested)
+--------------------------
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+🧪 Setup
+--------
 
-```sh
-bundle install
-```
+1.  Clone the project:
+    
+        git clone https://github.com/your-username/project-name.git
+        cd project-name
+    
+2.  Install dependencies:
+    
+        npm install
+    
+3.  Configure your Firebase project and credentials.
+4.  Run the app:
+    
+        
+        npx react-native run-android
+        # or
+        npx react-native run-ios
+              
+    
 
-Then, and every time you update your native dependencies, run:
+✍ Contributing
+--------------
 
-```sh
-bundle exec pod install
-```
+Contributions are welcome! Feel free to submit a pull request or open an issue.
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+* * *
 
-```sh
-# Using npm
-npm run ios
+**Note:** This is a basic sample project for learning purposes. Real-world applications require additional security and advanced features.
 
-# OR using Yarn
-yarn ios
-```
+* * *
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
-
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+🧑‍💻 Developer: [Taner Özer](https://github.com/dxtaner)  
+📧 Contact: [tanerozer16@gmail.com](mailto:tanerozer16@gmail.com)
